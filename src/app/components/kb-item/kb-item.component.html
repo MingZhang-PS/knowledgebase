@@ -1,0 +1,30 @@
+<ng-container *ngIf="kbArticle">
+  <fd-panel>
+    <fd-panel-header>
+      <fd-panel-head>
+        <fd-icon [glyph]="'document'" [size]="'l'" class="fd-has-margin-right-tiny"></fd-icon>
+        <label class="fd-has-type-0" (click)="open()">{{kbArticle.title}}</label>
+      </fd-panel-head>
+      <fd-panel-actions>
+        <button fd-button [fdType]="'standard'" [options]="'light'" [glyph]="'forward'" (click)="forward()"></button>
+        <button fd-button [fdType]="'standard'" [options]="'light'" [glyph]="'copy'" (click)="copy()"></button>
+      </fd-panel-actions>
+    </fd-panel-header>
+    <fd-panel-body>
+      <p>
+        {{kbArticle.content}}
+      </p>
+      <div >
+        {{kbArticle.views}} View | Published on: {{kbArticle.publishedDate}} |
+        <fd-icon [glyph]="'thumb-up'" [size]="'s'"></fd-icon> {{kbArticle.likes}}
+        <fd-icon [glyph]="'thumb-down'" [size]="'s'"></fd-icon> {{kbArticle.dislikes}}
+      </div>
+      <div class="fd-has-padding-top-tiny">
+        <span fd-badge *ngFor="let tag of kbArticle.tags" class="fd-has-margin-right-tiny">{{tag}}</span>
+      </div>
+      <div class="fd-has-padding-top-tiny">
+        Author: {{kbArticle.author}}
+      </div>
+    </fd-panel-body>
+  </fd-panel>
+</ng-container>

@@ -1,0 +1,17 @@
+<!-- <fd-panel>
+  <fd-panel-header>
+    <fd-panel-head>
+      <app-kb-search></app-kb-search>
+    </fd-panel-head>
+  </fd-panel-header>
+  <fd-panel-body>
+    <app-kb-list></app-kb-list>
+  </fd-panel-body>
+</fd-panel> -->
+
+<section class="fd-section">
+  <app-kb-search (search)="onSearch($event)"></app-kb-search>
+</section>
+<section class="fd-section">
+  <app-kb-list [kbArticleCollection]="(searchedArticles$ | async)"></app-kb-list>
+</section>

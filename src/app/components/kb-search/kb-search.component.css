@@ -1,0 +1,11 @@
+.main-container {
+    width: 100%;
+}
+
+.left-container {
+    float: left;
+}
+
+.right-container {
+    float: right;
+}
