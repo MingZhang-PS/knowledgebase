@@ -12,12 +12,12 @@ export class KnowledgeBaseFacade {
   searchArticles$: Observable<KnowledgeArticle[]>;
   searchResultCount$: Observable<number>;
 
-  constructor(private store: Store<KBState>) {
-    this.searchArticles$ = this.store.select(getAllArticles);
-    this.searchResultCount$ = this.store.select(getTotalObjectsCount);
+  constructor(private store$: Store<KBState>) {
+    this.searchArticles$ = this.store$.select(getAllArticles);
+    this.searchResultCount$ = this.store$.select(getTotalObjectsCount);
   }
 
   search(searchString: string) {
-    this.store.dispatch(intialSearchKBArticles({searchTerm: searchString}));
+    this.store$.dispatch(intialSearchKBArticles({searchTerm: searchString}));
   }
 }

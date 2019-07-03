@@ -1,8 +1,6 @@
 import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
-import { Subject, Observable } from 'rxjs';
+import { Subject } from 'rxjs';
 import { takeUntil, debounceTime } from 'rxjs/operators';
-import { getTotalObjectsCount } from 'src/app/selectors/knowledgeBaseArticle.selector';
-import { KnowledgeBaseFacade } from 'src/app/facades/knowledgeBase.facade';
 
 @Component({
   selector: 'app-kb-search',
@@ -11,13 +9,13 @@ import { KnowledgeBaseFacade } from 'src/app/facades/knowledgeBase.facade';
 })
 export class KbSearchComponent implements OnInit {
   // @Input() searchTerm: string;
+
+  @Input() kbArticleSearchResultCount: number;
   @Output() search = new EventEmitter<string>();
   private searchTermChanged: Subject<string> = new Subject();
   private onDestroy$: Subject<boolean> = new Subject();
-  private searchResultsCount$: Observable<number>;
 
-  constructor(private facade: KnowledgeBaseFacade) {
-    this.searchResultsCount$ = this.facade.searchResultCount$;
+  constructor() {
   }
 
   ngOnInit() {

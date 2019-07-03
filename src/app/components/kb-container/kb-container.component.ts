@@ -11,9 +11,11 @@ import { Observable } from 'rxjs';
 })
 export class KbContainerComponent implements OnInit {
   searchedArticles$: Observable<KnowledgeArticle[]>;
+  searchResultsCount$: Observable<number>;
 
   constructor(private facade: KnowledgeBaseFacade) {
     this.searchedArticles$ = facade.searchArticles$;
+    this.searchResultsCount$ = facade.searchResultCount$;
   }
 
   ngOnInit() {
