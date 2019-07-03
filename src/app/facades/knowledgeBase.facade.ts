@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { Store } from '@ngrx/store';
 import { Observable } from 'rxjs';
-import { intialSearchKBArticles,  } from '../actions/knowledgeBaseArticle.action';
+import { intialSearchKBArticles, loadNextPageKBArticles } from '../actions/knowledgeBaseArticle.action';
 import { getAllArticles } from '../selectors/knowledgeBaseArticle.selector';
 import { KnowledgeArticle } from '../models/KnowledgeArticle';
 import { getTotalObjectsCount } from './../selectors/knowledgeBaseArticle.selector';
@@ -19,5 +19,9 @@ export class KnowledgeBaseFacade {
 
   search(searchString: string) {
     this.store$.dispatch(intialSearchKBArticles({searchTerm: searchString}));
+  }
+
+  loadNextPage() {
+    this.store$.dispatch(loadNextPageKBArticles());
   }
 }

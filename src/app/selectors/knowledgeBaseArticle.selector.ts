@@ -35,3 +35,8 @@ export const getPageSize = createSelector(
     rootState,
     (state) => state.pageSize
 );
+
+export const getSearchTerm = createSelector(
+    rootState,
+    (state) => state.searchTerm
+);

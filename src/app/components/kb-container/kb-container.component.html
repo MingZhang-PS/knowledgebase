@@ -10,8 +10,12 @@
 </fd-panel> -->
 
 <section class="fd-section">
-  <app-kb-search (search)="onSearch($event)" [kbArticleSearchResultCount]="(searchResultsCount$ | async)"></app-kb-search>
+  <app-kb-search (search)="onSearch($event)" [kbArticleSearchResultCount]="(searchResultsCount$ | async)">
+  </app-kb-search>
 </section>
 <section class="fd-section">
-  <app-kb-list [kbArticleCollection]="(searchedArticles$ | async)"></app-kb-list>
+  <div fd-list fdInfiniteScroll (onScrollAction)="loadNextPage()" [scrollPercent]="scrollPercent"
+    style="max-height: 700px; overflow-y: scroll;">
+    <app-kb-list [kbArticleCollection]="(searchedArticles$ | async)"></app-kb-list>
+  </div>
 </section>

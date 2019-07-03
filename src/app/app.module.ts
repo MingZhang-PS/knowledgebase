@@ -8,7 +8,7 @@ import { EffectsModule } from '@ngrx/effects';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { KbModule } from './kb.module';
-import { ROOT_REDUCERS, metaReducers } from './appstate';
+import { ROOT_REDUCERS, metaReducers } from './app-state';
 
 @NgModule({
   declarations: [

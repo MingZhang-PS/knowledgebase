@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
-import { IconModule, PanelModule, ButtonModule, BadgeLabelModule, InputGroupModule   } from 'fundamental-ngx';
+import { IconModule, PanelModule, ButtonModule,
+        BadgeLabelModule, InputGroupModule, ListModule, InfiniteScrollModule } from 'fundamental-ngx';
 
 @NgModule({
   imports: [
@@ -7,14 +8,18 @@ import { IconModule, PanelModule, ButtonModule, BadgeLabelModule, InputGroupModu
     PanelModule,
     ButtonModule,
     BadgeLabelModule,
-    InputGroupModule
+    InputGroupModule,
+    ListModule,
+    InfiniteScrollModule
   ],
   exports: [
     IconModule,
     PanelModule,
     ButtonModule,
     BadgeLabelModule,
-    InputGroupModule
+    InputGroupModule,
+    ListModule,
+    InfiniteScrollModule
   ],
 })
 export class FundamentalModule {}

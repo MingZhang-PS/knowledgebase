@@ -21,18 +21,20 @@ export const selectKBArticle = createAction(
     props<{ id: string }>()
 );
 
-export const loadMoreKBArticles = createAction(
-    '[Load More KB Articles] Load More KB Articles'
+// TODO: selectKBArticleSucess/ selectKBArticleFailure
+
+export const loadNextPageKBArticles = createAction(
+    '[Load More KB Articles] Load Next Page KB Articles'
 );
 
-export const loadMoreKBArticlesSuccess = createAction(
-    '[Load More KB Articles] Load More KB Articles Success',
+export const loadNextPageKBArticlesSuccess = createAction(
+    '[Load More KB Articles] Load Next Page Articles Success',
     props<{ results: KnowledgeArticle[] }>()
 );
 
-export const loadMoreKBArticlesFailure = createAction(
-    '[Load More KB Articles] Load More KB Articles Fail',
+export const loadNextPageKBArticlesFailure = createAction(
+    '[Load More KB Articles] Load Next Page Articles Fail',
     props<{ errorMsg: string }>()
 );
 
-// TODO: selectKBArticleSucess/ selectKBArticleFailure
+

@@ -7,6 +7,6 @@ export interface KBState extends EntityState<KnowledgeArticle> {
   currentPage?: number;
   totalObjectCount?: number;
   readonly pageSize?: number;
-  search?: string;
+  searchTerm?: string;
   selectedId?: string;
 }
