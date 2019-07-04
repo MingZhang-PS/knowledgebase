@@ -3,7 +3,7 @@ import { Injectable } from '@angular/core';
 import { Actions, ofType, Effect } from '@ngrx/effects';
 import { Action, Store } from '@ngrx/store';
 import { of, Observable } from 'rxjs';
-import { catchError, map, withLatestFrom, switchMap } from 'rxjs/operators';
+import { catchError, map, withLatestFrom, switchMap, skip, takeUntil } from 'rxjs/operators';
 
 import * as KnowledgeBaseArticleAction from '../actions/knowledgeBaseArticle.action';
 import { KnowlegdeBaseArticleService } from '../services/knowlegdeBaseArticle.service';
@@ -27,9 +27,8 @@ export class KnowledgeBaseEffects {
         ofType(KnowledgeBaseArticleAction.intialSearchKBArticles),
         withLatestFrom(this.store$.select(getCurrentPage)),
         withLatestFrom(this.store$.select(getPageSize)),
-        switchMap(([[action, curPage], pageSize]) =>
-            // TODO: what will happen if another HTTP request is sent before current search is not returned from server?
-            this.knowledgeBaseService.searchKnowledgeArticle(action.searchTerm, curPage, pageSize).pipe(
+        switchMap(([[action, curPage], pageSize]) => {
+            return this.knowledgeBaseService.searchKnowledgeArticle(action.searchTerm, curPage, pageSize).pipe(
                 map(resp => {
                     return KnowledgeBaseArticleAction.intialSearchKBArticlesSuccess({
                         results: this.transform(resp),
@@ -39,8 +38,8 @@ export class KnowledgeBaseEffects {
                 catchError(err =>
                     of(KnowledgeBaseArticleAction.intialSearchKBArticlesFailure(err))
                 )
-            )
-        )
+            );
+        })
     );
 
     @Effect()
@@ -50,19 +49,27 @@ export class KnowledgeBaseEffects {
         withLatestFrom(this.store$.select(getCurrentPage)),
         withLatestFrom(this.store$.select(getPageSize)),
         withLatestFrom(this.store$.select(getTotalObjectsCount)),
-        switchMap(([[[[action, searchTerm], curPage], pageSize], total]) =>
+        switchMap(([[[[action, searchTerm], curPage], pageSize], total]) => {
             // TODO: what will happen if another HTTP request (triggered by fast scroll typically) is sent
-            // before current search is not returned from server?
-            this.knowledgeBaseService.searchKnowledgeArticle(searchTerm, ++curPage, pageSize).pipe(
-                map(resp => {
-                    return KnowledgeBaseArticleAction.loadNextPageKBArticlesSuccess({
-                        results: this.transform(resp)
-                    });
-                }),
-                catchError(err =>
-                    of(KnowledgeBaseArticleAction.loadNextPageKBArticlesFailure(err))
-                )
-            )
+            // before current search is returned from server?
+            const pageCount = Math.ceil(total / pageSize);
+            if (curPage + 1 === pageCount) {
+                return of(KnowledgeBaseArticleAction.loadNextPageKBArticlesSuccess({
+                    results: []
+                }));
+            } else {
+                return this.knowledgeBaseService.searchKnowledgeArticle(searchTerm, curPage + 1, pageSize).pipe(
+                    map(resp => {
+                        return KnowledgeBaseArticleAction.loadNextPageKBArticlesSuccess({
+                            results: this.transform(resp)
+                        });
+                    }),
+                    catchError(err =>
+                        of(KnowledgeBaseArticleAction.loadNextPageKBArticlesFailure(err))
+                    )
+                );
+            }
+        }
         )
     );
 

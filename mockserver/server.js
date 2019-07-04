@@ -6,8 +6,8 @@ const middlewares = jsonServer.defaults()
 server.use(middlewares)
 router.render = (req, res) => {
     var obj = {}
-    obj["data"] = res.locals.data
-    obj["totalObjectCount"] = 5
+    obj["data"] = res.locals.data.elements
+    obj["totalObjectCount"] = res.locals.data.metadata.totalObjectCount
     res.jsonp(obj)
 }
 

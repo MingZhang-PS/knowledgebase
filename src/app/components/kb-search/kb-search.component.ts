@@ -12,14 +12,14 @@ export class KbSearchComponent implements OnInit, OnDestroy {
 
   @Input() kbArticleSearchResultCount: number;
   @Output() search = new EventEmitter<string>();
-  private searchTermChanged: Subject<string> = new Subject();
+  private searchTermChangedSub: Subject<string> = new Subject();
 
   constructor() {
   }
 
   ngOnInit() {
     // throttling search input
-    this.searchTermChanged.pipe(
+    this.searchTermChangedSub.pipe(
       debounceTime(300)
     ).subscribe(searchTerm => {
       // let smart components to handle it
@@ -30,10 +30,10 @@ export class KbSearchComponent implements OnInit, OnDestroy {
   }
 
   ngOnDestroy() {
-    this.searchTermChanged.unsubscribe();
+    this.searchTermChangedSub.unsubscribe();
   }
 
   searchKB(searchString) {
-    this.searchTermChanged.next(searchString);
+    this.searchTermChangedSub.next(searchString);
   }
 }
