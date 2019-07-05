@@ -1,1 +1,1 @@
-    <app-kb-item fd-list-item *ngFor="let kb of kbArticleCollection" [kbArticle]="kb"></app-kb-item>
+    <app-kb-item fd-list-item *ngFor="let kb of kbArticleCollection; trackBy: trackByFn" [kbArticle]="kb"></app-kb-item>

@@ -1,11 +1,12 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input, ChangeDetectionStrategy } from '@angular/core';
 
 import { KnowledgeArticle } from './../../models/KnowledgeArticle';
 
 @Component({
   selector: 'app-kb-item',
   templateUrl: './kb-item.component.html',
-  styleUrls: ['./kb-item.component.css']
+  styleUrls: ['./kb-item.component.css'],
+  changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class KbItemComponent implements OnInit {
   @Input() kbArticle: KnowledgeArticle;
