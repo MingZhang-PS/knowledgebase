@@ -6,8 +6,9 @@ const middlewares = jsonServer.defaults()
 server.use(middlewares)
 router.render = (req, res) => {
     var obj = {}
-    obj["data"] = res.locals.data.elements
-    obj["totalObjectCount"] = res.locals.data.metadata.totalObjectCount
+    obj["data"] = res.locals.data
+    const rawData = require('./db.json')
+    obj["totalObjectCount"] = res.locals.data.length === 0? 0: rawData.data.length
     res.jsonp(obj)
 }
 

@@ -1,221 +1,192 @@
 {
-    "data": {
-        "metadata": {
-            "totalObjectCount": 12
+    "data": [
+        {
+            "id": "1",
+            "title": "Common problems with coffee makers - Ideas by Mr Right",
+            "url": "https://www.mrright.in/ideas/appliances/small-appliances/common-problems-arise-coffee-makers/",
+            "content": "If you are a coffee lover, then you would know how handy and useful an electric coffee maker can prove to be.  Not only does it help you get freshly brewed coffee at home but also at the workplace.  These days, coffee makers are very easily available and tagged at reasonable rates and this is why you see them around so often. But if you are thinking of buying one, then you should be aware of the common problems that can arise. The following is a list of some of these problems that you must not ignore:",
+            "provider": "mindtouch",
+            "publishedDate": "Mar 13, 2017",
+            "tags": [
+                "Troubleshooting",
+                "Coffeemaker"
+            ],
+            "views": 88,
+            "likes": 45,
+            "dislikes": 7,
+            "author": "Matilda Burton"
         },
-        "elements": [
-            {
-                "KnowledgeBaseArticle": {
-                    "id": "1",
-                    "title": "Common problems with coffee makers - Ideas by Mr Right",
-                    "url": "https://www.mrright.in/ideas/appliances/small-appliances/common-problems-arise-coffee-makers/",
-                    "content": "If you are a coffee lover, then you would know how handy and useful an electric coffee maker can prove to be.  Not only does it help you get freshly brewed coffee at home but also at the workplace.  These days, coffee makers are very easily available and tagged at reasonable rates and this is why you see them around so often. But if you are thinking of buying one, then you should be aware of the common problems that can arise. The following is a list of some of these problems that you must not ignore:",
-                    "provider": "mindtouch",
-                    "publishedDate": "Mar 13, 2017",
-                    "tags": [
-                        "Troubleshooting",
-                        "Coffeemaker"
-                    ],
-                    "views": 88,
-                    "likes": 45,
-                    "dislikes": 7,
-                    "author": "Matilda Burton"
-                }
-            },
-            {
-                "KnowledgeBaseArticle": {
-                    "id": "2",
-                    "title": "Drip Coffee Maker Problems: What Can Go Wrong with Your Coffee Maker",
-                    "url": "https://home.howstuffworks.com/coffee-maker4.htm",
-                    "content": "You're groggy. The sky still looks the same as when you started snoozing the night before and you stumble into the kitchen gung-ho to flip that magic switch. But what's this? You turned it on and nothing happened. No cheerful gurgling, no promising rumbling. No coffee! Here are some of the most common problems that can cause your drip coffee maker to stop working:­",
-                    "provider": "mindtouch",
-                    "publishedDate": "Feb 24, 2019",
-                    "tags": [
-                        "Coffee Brewing",
-                        "Coffeemaker"
-                    ],
-                    "views": 88,
-                    "likes": 31,
-                    "dislikes": 10,
-                    "author": "Jordan Simon"
-                }
-            },
-            {
-                "KnowledgeBaseArticle": {
-                    "id": "3",
-                    "title": "How to Repair a Coffee Maker - How to Repair Small Appliances",
-                    "url": "https://home.howstuffworks.com/how-to-repair-small-appliances3.htm",
-                    "content": "There's nothing more invigorating in the morning than the smell of fresh coffee -- nor anything more frustrating than the sight of a coffee maker that isn't functioning as directed. Fortunately, many repairs to coffee makers are simple to perform and require only basic tools. So, before you toss that coffee maker or defect to a coffee shop, consider how coffee makers work and what to do when they don't.­",
-                    "provider": "mindtouch",
-                    "publishedDate": "Feb 13, 2019",
-                    "tags": [
-                        "Coffee Brewing",
-                        "Coffeemaker"
-                    ],
-                    "views": 88,
-                    "likes": 25,
-                    "dislikes": 12,
-                    "author": "Blake Williamsoon"
-                }
-            },
-            {
-                "KnowledgeBaseArticle": {
-                    "id": "4",
-                    "title": "Repair Your Clogged Coffee Maker: 6 Steps (with Pictures)",
-                    "url": "https://www.instructables.com/id/Repair-Your-Clogged-Coffee-Maker/­",
-                    "content": "Don't throw away your coffee maker just because it only makes steam and has stopped gurgling water up into the brew basket.  I have repaired a couple coffee makers by forcefully spraying water into the fill area.(Unplug first of course).   This clears the pipes going down into the heating element area. This method didn't work on my expensive MR-COFFEE machine.  So i was forced to remove the cover and find what was clogging it up. This is not very hard to do and you don't need many tools.",
-                    "provider": "mindtouch",
-                    "publishedDate": "Jan 1, 2019",
-                    "tags": [
-                        "Warranty",
-                        "Warranty Coverage"
-                    ],
-                    "views": 88,
-                    "likes": 12,
-                    "dislikes": 0,
-                    "author": "Blake Williamsoon"
-                }
-            },
-            {
-                "KnowledgeBaseArticle": {
-                    "id": "5",
-                    "title": "Troubleshooting a Coffeemaker",
-                    "url": "https://www.doityourself.com/stry/troubleshooting-a-coffeemaker­",
-                    "content": "A coffeemaker can suddenly stop working for several different reasons. Most of the time it is mineral build up that is causing your coffeemaker to have problems. This could alter the taste of your coffee as well as do damage to your machine. Being able to understand the problem before it gets out of hand will save you the hassle and money of having to buy a brand new machine. Below are a few tips and hints to help you know what to look for when your coffeemaker starts to give your problems.",
-                    "provider": "mindtouch",
-                    "publishedDate": "Mar 23, 2016",
-                    "tags": [
-                        "Coffeemaker",
-                        "Troubleshooting"
-                    ],
-                    "views": 88,
-                    "likes": 17,
-                    "dislikes": 0,
-                    "author": "Chris Notap"
-                }
-            },
-            {
-                "KnowledgeBaseArticle": {
-                    "id": "6",
-                    "title": "How to Unclog a Coffee Maker",
-                    "url": "https://www.hunker.com/13407417/how-to-unclog-a-coffee-maker­",
-                    "content": "Ever had one of those mornings where you really need a cup of coffee but the machine seems to be brewing with the speed of a wounded snail? Or worse, you fill the reservoir and it drips over the sides. It could be that your coffeemaker is clogged. Follow these simple tips for unclogging a coffee maker and you can enjoy a tasty cup of coffee in no time.",
-                    "provider": "mindtouch",
-                    "publishedDate": "Jan 13, 2017",
-                    "tags": [
-                        "Coffeemaker"
-                    ],
-                    "views": 88,
-                    "likes": 33,
-                    "dislikes": 2,
-                    "author": "Richard Sweeney"
-                }
-            },
-            {
-                "KnowledgeBaseArticle": {
-                    "id": "7",
-                    "title": "Is Your Coffee Maker Overflowing? Here's Why",
-                    "url": "https://www.consumerreports.org/drip-coffee-makers/why-your-coffee-maker-is-overflowing/­",
-                    "content": "When Consumer Reports began hearing from consumers that their drip coffee makers were overflowing, sometimes spilling hot coffee and grounds on the counter, we decided to investigate. Were they putting in too much coffee? Too much water? Both? To get to the bottom of the matter, we added a new test to our already challenging battery of brewing performance tests in an effort to duplicate the problem. We filled the filters to within ½ inch of the top, then added the maximum amount of water indicated on the machine. If the owner’s manual specified a maximum amount of coffee, we tried it that way, too.",
-                    "provider": "mindtouch",
-                    "publishedDate": "Dec 20, 2016",
-                    "tags": [
-                        "Coffeemaker",
-                        "Overflowing"
-                    ],
-                    "views": 88,
-                    "likes": 45,
-                    "dislikes": 0,
-                    "author": "Mary H.J. Farrell"
-                }
-            },
-            {
-                "KnowledgeBaseArticle": {
-                    "id": "8",
-                    "title": "Keurig Troubleshooting : 7 Common Problems and How to Fix them",
-                    "url": "https://freshpresso.net/keurig-troubleshooting/­",
-                    "content": "A cup of good coffee can make your day. However, unsavory coffee experiences can dent your mood and ruin it for you. If you saunter over to your Keurig coffee maker in the morning, only to find it behaving oddly, chances are you’d be shaken off your sleep in the wrong coffee.",
-                    "provider": "mindtouch",
-                    "publishedDate": "Nov 13, 2009",
-                    "tags": [
-                        "Coffeemaker",
-                        "Overflowing"
-                    ],
-                    "views": 88,
-                    "likes": 22,
-                    "dislikes": 1,
-                    "author": "FP Staff"
-                }
-            },
-            {
-                "KnowledgeBaseArticle": {
-                    "id": "9",
-                    "title": "Keurig Coffee Maker Problems And Troubleshooting | How To Fix Them",
-                    "url": "https://www.fourthestatecoffee.com/keurig-coffee-maker-problems-and-troubleshooting/­",
-                    "content": "Single serve machines and pods have taken the coffee world by storm over the last few decades with each newcomer trying to outflank the competition. Among so many new brands, some stand the test of time and Keurig is an industry legend. Keurig is the original producer of single serve coffee makers and their coffee pods. These commercial brewing machines were first marketed at businesses in the 1990s, and they quickly caught on. By 2005, Keurig had cornered the in-home market for single serve coffee machines and caught the attention of Green Mountain Coffee Roasters who went on to buy the company in 2006.",
-                    "provider": "mindtouch",
-                    "publishedDate": "May 1, 2010",
-                    "tags": [
-                        "Coffeemaker",
-                        "Troubleshooting"
-                    ],
-                    "views": 88,
-                    "likes": 33,
-                    "dislikes": 0,
-                    "author": "anonymous"
-                }
-            },
-            {
-                "KnowledgeBaseArticle": {
-                    "id": "10",
-                    "title": "Coffee Maker - An OOD case study",
-                    "url": "https://www.lvguowei.me/post/coffee-maker/­",
-                    "content": "The Mark IV Special makes up to 12 cups of coffee at a time. The user places a filter in the filter holder, fills the filter with coffee grounds, and slides the filter holder into its receptacle. The user then pours up to 12 cups of water into the water strainer and presses the Brew button. The water is heated until boiling. The pressure of the evolving steam forces the water to be sprayed over the coffee grounds, and coffee drips through the filter into the pot. The pot is kept warm for extended periods by a warmer plate, which only turns on if there is coffee in the pot. If the pot is removed from the warmer plate while water is being sprayed over the grounds, the flow of water is stopped so that brewed coffee does not spill on the warmer plate. The following hardware needs to be monitored or controlled:",
-                    "provider": "mindtouch",
-                    "publishedDate": "Dec 18, 2016",
-                    "tags": [
-                        "Coffeemaker"
-                    ],
-                    "views": 88,
-                    "likes": 44,
-                    "dislikes": 2,
-                    "author": "Guowei Lv"
-                }
-            },
-            {
-                "KnowledgeBaseArticle": {
-                    "id": "11",
-                    "title": "Troubleshooting Problems with a Bialetti Stovetop Espresso Coffee Maker",
-                    "url": "https://delishably.com/cooking-equipment/Troubleshooting-Problems-with-a-Bialetti-Stovetop-Espresso-Coffee-Maker­",
-                    "content": "Whether your moka pot is hissing and spitting steam, or your coffee is too weak, these are the common problems - and fixes - to make sure your morning brew is everything you expect. A jet of steam is shooting out of the safety valve on the lower, reservoir part of the Moka Pot: either the safety valve is clogged, or you’ve filled the reservoir above the fill line, or the filter may be clogged up so that the water isn’t escaping into the jug part of the pot as it should. Take the whole pot apart, including the gasket and filter, and rinse thoroughly, wiping off any stray or stuck coffee grounds with a sponge. Also check to see if your safety valve has a tiny protuberance like a little metal stick that you can push from the inside – some of my older pots had this, but my newer one doesn’t – and pushing this in a few times (it springs back again) might dislodge the blockage. But if the problem continues, you might have to send the pot back or buy a new one, depending on whether it’s still under warranty.",
-                    "provider": "mindtouch",
-                    "publishedDate": "Jun 2, 2012",
-                    "tags": [
-                        "Coffeemaker"
-                    ],
-                    "views": 88,
-                    "likes": 31,
-                    "dislikes": 0,
-                    "author": "Redberry Sky"
-                }
-            },
-            {
-                "KnowledgeBaseArticle": {
-                    "id": "12",
-                    "title": "5 coffee issues and the quick fix solutions",
-                    "url": "https://www.profitablehospitality.com.au/blog/5-coffee-issues-and-the-quick-fix-solutions/­",
-                    "content": "Because you don’t want to stand between a tired customer and their coffee. Offering fresh, barista-made coffee at your venue is an incredibly important asset to your business. Coffee is the great equaliser: regardless of age, location, or taste in food, people will travel far and wide for a good coffee. But having a coffee machine on site can come with it’s fair share of challenges. From keeping the beans fresh, to troubleshooting issues with the machine, if something goes wrong then you run the risk of some very unhappy customers who potentially will not return. So we’ve compiled the top five most common coffee-making issues, along with the quick fixes that will get you back on track quickly. After all, you don’t want to stand between a tired customer and their coffee! ",
-                    "provider": "mindtouch",
-                    "publishedDate": "Jul 2, 2013",
-                    "tags": [
-                        "Coffeemaker"
-                    ],
-                    "views": 88,
-                    "likes": 108,
-                    "dislikes": 0,
-                    "author": "anonymous"
-                }
-            }
-        ]
-    }
+        {
+            "id": "2",
+            "title": "Drip Coffee Maker Problems: What Can Go Wrong with Your Coffee Maker",
+            "url": "https://home.howstuffworks.com/coffee-maker4.htm",
+            "content": "You're groggy. The sky still looks the same as when you started snoozing the night before and you stumble into the kitchen gung-ho to flip that magic switch. But what's this? You turned it on and nothing happened. No cheerful gurgling, no promising rumbling. No coffee! Here are some of the most common problems that can cause your drip coffee maker to stop working:­",
+            "provider": "mindtouch",
+            "publishedDate": "Feb 24, 2019",
+            "tags": [
+                "Coffee Brewing",
+                "Coffeemaker"
+            ],
+            "views": 88,
+            "likes": 31,
+            "dislikes": 10,
+            "author": "Jordan Simon"
+        },
+        {
+            "id": "3",
+            "title": "How to Repair a Coffee Maker - How to Repair Small Appliances",
+            "url": "https://home.howstuffworks.com/how-to-repair-small-appliances3.htm",
+            "content": "There's nothing more invigorating in the morning than the smell of fresh coffee -- nor anything more frustrating than the sight of a coffee maker that isn't functioning as directed. Fortunately, many repairs to coffee makers are simple to perform and require only basic tools. So, before you toss that coffee maker or defect to a coffee shop, consider how coffee makers work and what to do when they don't.­",
+            "provider": "mindtouch",
+            "publishedDate": "Feb 13, 2019",
+            "tags": [
+                "Coffee Brewing",
+                "Coffeemaker"
+            ],
+            "views": 88,
+            "likes": 25,
+            "dislikes": 12,
+            "author": "Blake Williamsoon"
+        },
+        {
+            "id": "4",
+            "title": "Repair Your Clogged Coffee Maker: 6 Steps (with Pictures)",
+            "url": "https://www.instructables.com/id/Repair-Your-Clogged-Coffee-Maker/­",
+            "content": "Don't throw away your coffee maker just because it only makes steam and has stopped gurgling water up into the brew basket.  I have repaired a couple coffee makers by forcefully spraying water into the fill area.(Unplug first of course).   This clears the pipes going down into the heating element area. This method didn't work on my expensive MR-COFFEE machine.  So i was forced to remove the cover and find what was clogging it up. This is not very hard to do and you don't need many tools.",
+            "provider": "mindtouch",
+            "publishedDate": "Jan 1, 2019",
+            "tags": [
+                "Warranty",
+                "Warranty Coverage"
+            ],
+            "views": 88,
+            "likes": 12,
+            "dislikes": 0,
+            "author": "Blake Williamsoon"
+        },
+        {
+            "id": "5",
+            "title": "Troubleshooting a Coffeemaker",
+            "url": "https://www.doityourself.com/stry/troubleshooting-a-coffeemaker­",
+            "content": "A coffeemaker can suddenly stop working for several different reasons. Most of the time it is mineral build up that is causing your coffeemaker to have problems. This could alter the taste of your coffee as well as do damage to your machine. Being able to understand the problem before it gets out of hand will save you the hassle and money of having to buy a brand new machine. Below are a few tips and hints to help you know what to look for when your coffeemaker starts to give your problems.",
+            "provider": "mindtouch",
+            "publishedDate": "Mar 23, 2016",
+            "tags": [
+                "Coffeemaker",
+                "Troubleshooting"
+            ],
+            "views": 88,
+            "likes": 17,
+            "dislikes": 0,
+            "author": "Chris Notap"
+        },
+        {
+            "id": "6",
+            "title": "How to Unclog a Coffee Maker",
+            "url": "https://www.hunker.com/13407417/how-to-unclog-a-coffee-maker­",
+            "content": "Ever had one of those mornings where you really need a cup of coffee but the machine seems to be brewing with the speed of a wounded snail? Or worse, you fill the reservoir and it drips over the sides. It could be that your coffeemaker is clogged. Follow these simple tips for unclogging a coffee maker and you can enjoy a tasty cup of coffee in no time.",
+            "provider": "mindtouch",
+            "publishedDate": "Jan 13, 2017",
+            "tags": [
+                "Coffeemaker"
+            ],
+            "views": 88,
+            "likes": 33,
+            "dislikes": 2,
+            "author": "Richard Sweeney"
+        },
+        {
+            "id": "7",
+            "title": "Is Your Coffee Maker Overflowing? Here's Why",
+            "url": "https://www.consumerreports.org/drip-coffee-makers/why-your-coffee-maker-is-overflowing/­",
+            "content": "When Consumer Reports began hearing from consumers that their drip coffee makers were overflowing, sometimes spilling hot coffee and grounds on the counter, we decided to investigate. Were they putting in too much coffee? Too much water? Both? To get to the bottom of the matter, we added a new test to our already challenging battery of brewing performance tests in an effort to duplicate the problem. We filled the filters to within ½ inch of the top, then added the maximum amount of water indicated on the machine. If the owner’s manual specified a maximum amount of coffee, we tried it that way, too.",
+            "provider": "mindtouch",
+            "publishedDate": "Dec 20, 2016",
+            "tags": [
+                "Coffeemaker",
+                "Overflowing"
+            ],
+            "views": 88,
+            "likes": 45,
+            "dislikes": 0,
+            "author": "Mary H.J. Farrell"
+        },
+        {
+            "id": "8",
+            "title": "Keurig Troubleshooting : 7 Common Problems and How to Fix them",
+            "url": "https://freshpresso.net/keurig-troubleshooting/­",
+            "content": "A cup of good coffee can make your day. However, unsavory coffee experiences can dent your mood and ruin it for you. If you saunter over to your Keurig coffee maker in the morning, only to find it behaving oddly, chances are you’d be shaken off your sleep in the wrong coffee.",
+            "provider": "mindtouch",
+            "publishedDate": "Nov 13, 2009",
+            "tags": [
+                "Coffeemaker",
+                "Overflowing"
+            ],
+            "views": 88,
+            "likes": 22,
+            "dislikes": 1,
+            "author": "FP Staff"
+        },
+        {
+            "id": "9",
+            "title": "Keurig Coffee Maker Problems And Troubleshooting | How To Fix Them",
+            "url": "https://www.fourthestatecoffee.com/keurig-coffee-maker-problems-and-troubleshooting/­",
+            "content": "Single serve machines and pods have taken the coffee world by storm over the last few decades with each newcomer trying to outflank the competition. Among so many new brands, some stand the test of time and Keurig is an industry legend. Keurig is the original producer of single serve coffee makers and their coffee pods. These commercial brewing machines were first marketed at businesses in the 1990s, and they quickly caught on. By 2005, Keurig had cornered the in-home market for single serve coffee machines and caught the attention of Green Mountain Coffee Roasters who went on to buy the company in 2006.",
+            "provider": "mindtouch",
+            "publishedDate": "May 1, 2010",
+            "tags": [
+                "Coffeemaker",
+                "Troubleshooting"
+            ],
+            "views": 88,
+            "likes": 33,
+            "dislikes": 0,
+            "author": "anonymous"
+        },
+        {
+            "id": "10",
+            "title": "Coffee Maker - An OOD case study",
+            "url": "https://www.lvguowei.me/post/coffee-maker/­",
+            "content": "The Mark IV Special makes up to 12 cups of coffee at a time. The user places a filter in the filter holder, fills the filter with coffee grounds, and slides the filter holder into its receptacle. The user then pours up to 12 cups of water into the water strainer and presses the Brew button. The water is heated until boiling. The pressure of the evolving steam forces the water to be sprayed over the coffee grounds, and coffee drips through the filter into the pot. The pot is kept warm for extended periods by a warmer plate, which only turns on if there is coffee in the pot. If the pot is removed from the warmer plate while water is being sprayed over the grounds, the flow of water is stopped so that brewed coffee does not spill on the warmer plate. The following hardware needs to be monitored or controlled:",
+            "provider": "mindtouch",
+            "publishedDate": "Dec 18, 2016",
+            "tags": [
+                "Coffeemaker"
+            ],
+            "views": 88,
+            "likes": 44,
+            "dislikes": 2,
+            "author": "Guowei Lv"
+        },
+        {
+            "id": "11",
+            "title": "Troubleshooting Problems with a Bialetti Stovetop Espresso Coffee Maker",
+            "url": "https://delishably.com/cooking-equipment/Troubleshooting-Problems-with-a-Bialetti-Stovetop-Espresso-Coffee-Maker­",
+            "content": "Whether your moka pot is hissing and spitting steam, or your coffee is too weak, these are the common problems - and fixes - to make sure your morning brew is everything you expect. A jet of steam is shooting out of the safety valve on the lower, reservoir part of the Moka Pot: either the safety valve is clogged, or you’ve filled the reservoir above the fill line, or the filter may be clogged up so that the water isn’t escaping into the jug part of the pot as it should. Take the whole pot apart, including the gasket and filter, and rinse thoroughly, wiping off any stray or stuck coffee grounds with a sponge. Also check to see if your safety valve has a tiny protuberance like a little metal stick that you can push from the inside – some of my older pots had this, but my newer one doesn’t – and pushing this in a few times (it springs back again) might dislodge the blockage. But if the problem continues, you might have to send the pot back or buy a new one, depending on whether it’s still under warranty.",
+            "provider": "mindtouch",
+            "publishedDate": "Jun 2, 2012",
+            "tags": [
+                "Coffeemaker"
+            ],
+            "views": 88,
+            "likes": 31,
+            "dislikes": 0,
+            "author": "Redberry Sky"
+        },
+        {
+            "id": "12",
+            "title": "5 coffee issues and the quick fix solutions",
+            "url": "https://www.profitablehospitality.com.au/blog/5-coffee-issues-and-the-quick-fix-solutions/­",
+            "content": "Because you don’t want to stand between a tired customer and their coffee. Offering fresh, barista-made coffee at your venue is an incredibly important asset to your business. Coffee is the great equaliser: regardless of age, location, or taste in food, people will travel far and wide for a good coffee. But having a coffee machine on site can come with it’s fair share of challenges. From keeping the beans fresh, to troubleshooting issues with the machine, if something goes wrong then you run the risk of some very unhappy customers who potentially will not return. So we’ve compiled the top five most common coffee-making issues, along with the quick fixes that will get you back on track quickly. After all, you don’t want to stand between a tired customer and their coffee! ",
+            "provider": "mindtouch",
+            "publishedDate": "Jul 2, 2013",
+            "tags": [
+                "Coffeemaker"
+            ],
+            "views": 88,
+            "likes": 108,
+            "dislikes": 0,
+            "author": "anonymous"
+        }
+    ]
 }

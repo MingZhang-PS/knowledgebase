@@ -14,7 +14,7 @@
   </app-kb-search>
 </section>
 <section class="fd-section">
-  <div fd-list fdInfiniteScroll (onScrollAction)="loadNextPage()"  [scrollPercent]="scrollPercent" (scroll)="scrollHandler($event)"
+   <div fd-list fdInfiniteScroll (onScrollAction)="loadNextPage()"  [scrollPercent]="scrollPercent" (scroll)="scrollHandler($event)"
     style="max-height: 700px; overflow: auto;">
     <app-kb-list [kbArticleCollection]="(searchedArticles$ | async)"></app-kb-list>
   </div>

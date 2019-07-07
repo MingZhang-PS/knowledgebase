@@ -43,6 +43,8 @@ export const KBReducer = createReducer(
         let newState = state;
         if (results && results.length > 0) {
             newState = adapter.addAll(results, state);
+        } else {
+            newState = adapter.removeAll(state);
         }
         return {
             ...newState,

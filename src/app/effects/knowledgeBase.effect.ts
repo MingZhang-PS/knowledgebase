@@ -75,7 +75,8 @@ export class KnowledgeBaseEffects {
 
     private transform(resp: ResponseWrapper<KnowledgeArticle>) {
         /* tslint:disable:no-string-literal */
-        return [...resp.data].map(a => a['KnowledgeBaseArticle']).filter(el => el != null);
+       // return [...resp.data].map(a => a['KnowledgeBaseArticle']).filter(el => el != null);
+       return [...resp.data].filter(el => el != null);
         /* tslint:enable:no-string-literal */
     }
 }

@@ -2,8 +2,10 @@
     (addOnButtonClicked)="searchKB(searchinput.inputText)" (keyup.Enter)="searchKB(searchinput.inputText)">
 </fd-input-group>
 
-<div class="main-container">
+<!-- <div class="main-container"> -->
+        <ng-container >
     <div class="left-container"><label class="fd-has-type-0">Search Result[{{kbArticleSearchResultCount}}]</label></div>
     <div class="right-container"><button fd-button [fdType]="'standard'" [options]="'light'"
             [glyph]="'decline'"></button></div>
-</div>
+        </ng-container>
+<!-- </div> -->
