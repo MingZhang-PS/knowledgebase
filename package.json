@@ -26,6 +26,7 @@
     "core-js": "^2.5.4",
     "fundamental-ngx": "^0.6.0",
     "fundamental-styles": "^0.1.0",
+    "ngrx-store-freeze": "^0.2.4",
     "ngrx-store-logger": "^0.2.3",
     "rxjs": "~6.3.3",
     "tslib": "^1.9.0",

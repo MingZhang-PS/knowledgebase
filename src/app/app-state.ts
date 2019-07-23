@@ -1,5 +1,6 @@
 import { ActionReducerMap, ActionReducer } from '@ngrx/store';
 import { storeLogger } from 'ngrx-store-logger';
+import { storeFreeze } from 'ngrx-store-freeze';
 
 import { environment } from 'src/environments/environment';
 import { KBState } from './states/knowledgeBaseArticle.state';
@@ -18,4 +19,4 @@ export function logger(reducer: ActionReducer<IState>): any {
     return storeLogger()(reducer);
 }
 
-export const metaReducers = environment.production ? [] : [logger];
+export const metaReducers = environment.production ? [] : [logger, storeFreeze];
